@@ -1,6 +1,6 @@
-# timelineJS-rails
+# timelineJS3-rails
 
-This gem packages the [TimelineJS3](https://github.com/NUKnightLab/TimelineJS3) for easy use with the Rails asset pipleine.
+This gem packages the [TimelineJS3](https://github.com/NUKnightLab/TimelineJS3) for easy use with the Rails asset pipeline.
 
 ## General Installation
 
@@ -37,52 +37,8 @@ The Localization language *default is `en` English*,
 if you want to change it, just add the Javascript to `application.js`:
 
 ```javascript
-//=require timelineJS/locale/xxx # you should change the xxx with one of the available languages below
+//=require timelineJS3/locale/xxx # you should change the xxx with one of the available
 ```
-
-* `af` *Afrikaans*
-* `ar` *Arabic (beta)*
-* `bg` *Bulgarian*
-* `ca` *Catalan*
-* `cz` *Czech*
-* `da` *Danish*
-* `de` *German / Deutsch*
-* `el` *Greek*
-* `en` *English*
-* `en-24hr` *English using 24hr time*
-* `es` *Spanish*
-* `eu` *Basque/ Euskara*
-* `fi` *Finnish*
-* `fo` *Faroese*
-* `fr` *French*
-* `gl` *Galician*
-* `hu` *Hungarian*
-* `hy` *Armenian*
-* `id` *Indonesian*
-* `is` *Icelandic*
-* `it` *Italian*
-* `iw` *Hebrew (beta)*
-* `ja` *Japanese*
-* `ka` *Georgian*
-* `ko` *Korean*
-* `lv` *Latvian*
-* `nl` *Dutch*
-* `no` *Norwegian*
-* `pl` *Polish*
-* `pt-br` *Brazilian Portuguese*
-* `pt` *Portuguese*
-* `ru` *Russian*
-* `sk` *Slovak*
-* `sl` *Slovenian*
-* `sr-cy` *Serbian (Cyrillic)*
-* `sr` *Serbian (Latin)*
-* `sv` *Swedish*
-* `ta` *Tamil*
-* `tl` *Tagalog*
-* `tr` *Turkish*
-* `zh-cn` *Chinese*
-* `zh-tw` *Taiwanese*
-
 
 ## Font Themes
 If you want to set the font theme, just add the CSS to `application.css`:
@@ -93,8 +49,7 @@ If you want to set the font theme, just add the CSS to `application.css`:
  */
 ```
 
+## For more detail information visit [TimelineJS3](https://github.com/NUKnightLab/TimelineJS3)
+
 ## Thanks
 >- [TimelineJS3](http://timeline.knightlab.com)
-
-## License
-[www.opensource.org/licenses/MIT](http://www.opensource.org/licenses/MIT)
